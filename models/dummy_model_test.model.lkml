@@ -1,4 +1,4 @@
-connection: "thelook_tatty"
+connection: "thelook2_tatty"
 
 include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
 # include: "/**/view.lkml"                   # include all views in this project
