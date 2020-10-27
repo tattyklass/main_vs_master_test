@@ -1,4 +1,4 @@
-connection: "thelook_tatty_testing"
+connection: "thelook_tatty"
 
 # include all the views
 include: "/views/**/*.view"
