@@ -44,7 +44,13 @@ view: products {
   }
 
   measure: count {
+    description: "ajsda;hdfa;jkdf;ajhdfakjdfha;khdfakjhf"
     type: count
     drill_fields: [id, item_name, inventory_items.count]
+
+    filters: {
+      field: department
+      value: "Men"
+    }
   }
 }
